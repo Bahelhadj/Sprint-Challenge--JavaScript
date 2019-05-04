@@ -6,6 +6,12 @@
   * The last parameter accepts a callback 
   * In the body of the function return the callback with the two parameters that you created
 */
+function consume(num1, num2, cb) {
+   function add() {
+    num1 + num2; }
+  cb();
+};
+
 
 
 /* Step 2: Create several functions to callback with consume();
